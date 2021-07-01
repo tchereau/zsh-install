@@ -2,7 +2,7 @@
 
 there's scripts will install zsh, oh-my-zsh and parrotOs theme for zsh
 
-## for cygwin
+## for cygwin (windows)
 apt-cyg is required
 
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/tchereau/zsh-install/master/zsh_cygwin.sh)"
