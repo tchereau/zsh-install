@@ -6,6 +6,7 @@ there's scripts will install zsh, oh-my-zsh and parrotOs theme for zsh
 apt-cyg is required
 
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/tchereau/zsh-install/master/zsh_cygwin.sh)"
+or
 	sh -c "$(wget https://raw.githubusercontent.com/tchereau/zsh-install/master/zsh_cygwin.sh -O -)"
 
 
@@ -13,9 +14,11 @@ apt-cyg is required
 brew is required
 
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/tchereau/zsh-install/master/zsh_macos.sh)"
+or
 	sh -c "$(wget https://raw.githubusercontent.com/tchereau/zsh-install/master/zsh_macos.sh -O -)"
 
-## for linux
+## for linux (debian/ubuntu or apt distrib)
 
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/tchereau/zsh-install/master/zsh_linux.sh)"
+or
 	sh -c "$(wget https://raw.githubusercontent.com/tchereau/zsh-install/master/zsh_linux.sh -O -)"
